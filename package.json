@@ -1,0 +1,43 @@
+{
+  "name": "music-bot-example",
+  "version": "1.1.0",
+  "description": "A dedicated music bot example project for Zhycorp Development made by iCrawl and modifed by lar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/largwa"
+  },
+  "keywords": [
+    "JavaScript",
+    "NodeJS",
+    "Npm",
+    "lar"
+  ],
+  "author": "iCrawl",
+  "license": "by-nc-nd/4.0",
+  "bugs": {
+    "url": "https://github.com/largwa"
+  },
+  "homepage": "https://github.com/largwa",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-opus": "^0.3.3",
+    "opusscript": "0.0.7",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^3.2.2",
+    "lyrics-finder": "^21.4.0"
+  },
+  "optionalDependencies": {
+    "@discordjs/uws": "^11.149.1"
+  }
+}
